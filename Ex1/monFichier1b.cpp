@@ -18,6 +18,21 @@ typedef Card Hand[5];
 bool testPair(const Hand& h)
 {
 	//VOTRE CODE VIENT ICI
+	
+	bool pair = 0;
+	int i = 0;
+
+	while (!pair && i < 4 ){
+		int j = i + 1;
+		while (!pair && j < 5 ){
+			pair = (h[i].face == h[j].face ) ;
+			j ++;
+			}
+		i ++;
+		}
+return pair ;
+}
+	
 }
 
 
