@@ -1,9 +1,7 @@
 #include <iostream>
 using namespace std;
 
-enum Color {club, diamiond, spades, heart}; //définition d'un type énumération nommé color qui comporte
-											//quatres valeurs possibles désigées par les identificateurs club, diamond, spades, heart
-											//ces valeurs constituent les constantes de type color
+enum Color {club, diamiond, spades, heart}; 
 
 enum Face {seven, eight, nine, ten, jack, queen, king, ace};
 
